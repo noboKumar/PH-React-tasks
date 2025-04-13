@@ -6,10 +6,10 @@ const Customer = ({ customerPromise }) => {
     <div>
       <h1>Customers: {customers.length}</h1>
       {customers.map((customer) => (
-        <>
+        <div key={customer.id}>
           <h2>customer name: {customer.name}</h2>
           <h3>customer email: {customer.email}</h3>
-        </>
+        </div>
       ))}
     </div>
   );

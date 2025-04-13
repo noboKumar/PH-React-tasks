@@ -12,11 +12,11 @@ export default function Counter() {
     setCount(0);
   };
   return (
-    <div>
+    <div className="text-2xl">
       <h2>Count: {count}</h2>
-      <button onClick={handleIncrement}>Increase</button>
-      <button onClick={handleDecrement}>Decrease</button>
-      <button onClick={handleReset}>Reset</button>
+      <button className="btn" onClick={handleIncrement}>Increase</button>
+      <button className="btn" onClick={handleDecrement}>Decrease</button>
+      <button className="btn" onClick={handleReset}>Reset</button>
     </div>
   );
 }

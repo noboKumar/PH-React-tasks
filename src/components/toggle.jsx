@@ -15,8 +15,8 @@ export default function ToggleText() {
   };
   return (
     <div>
-      <h2>{text}</h2>
-      <button onClick={handleToggle}>{btnText}</button>
+      <h2 className="text-2xl">{text}</h2>
+      <button className="btn" onClick={handleToggle}>{btnText}</button>
     </div>
   );
 }
