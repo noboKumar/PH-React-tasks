@@ -46,7 +46,7 @@ const NavBar = () => {
             ></Menu>
           )}
 
-          <h1 className="text-4xl ">Project Logo</h1>
+          <h1 className="text-4xl font-bold">Project Logo</h1>
         </div>
         <ul
           className={`text-xl lg:hidden absolute duration-500 bg-orange-700 ${

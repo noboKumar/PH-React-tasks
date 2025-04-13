@@ -7,6 +7,7 @@ import Customer from "./components/Customer";
 import Friends from "./components/Friends";
 import Input from "./components/input";
 import NavBar from "./components/NavBar";
+import ChartData from "./components/ChartData";
 
 const users = async () => {
   const response = await fetch("https://jsonplaceholder.typicode.com/users");
@@ -30,6 +31,7 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
+      <ChartData></ChartData>
       {/* <Counter></Counter> */}
       {/* <ToggleText></ToggleText> */}
       {/* <Input></Input> */}
